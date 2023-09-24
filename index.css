@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    
+}
+
+
+.logo{
+    display: flex;
+    margin: 30px;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+    line-height: 8px;
+}
+
+.logo h1{
+    padding-left: 10px;
+    font-family: "Garamond";
+    font-weight: 400px;
+}
+
+.description{
+    text-align: center;
+    font-size: 24px;
+    font-weight: "Quicksand";
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.menu-item{
+    box-shadow: 0px 0px 40px -15px #aaa;
+    /* background-color: pink; */
+}
+
+.grid-container menu-item h2{
+    padding-left: 10px;
+    font-family: "Garamond";
+}
+
+.grid-container menu-item h3{
+    padding-left: 10px;
+    font-family: "Garamond";
+}
+
+
+
+
+.menu-item img{
+    width: 100%;
+}
+
+button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 40px;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #333;
+    background: none;
+    border-radius: 3px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #eee;
+}
